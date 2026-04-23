@@ -20,6 +20,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "dev": "npm run build && chokidar \"src/**/*\" \"public/**/*\" --command \"npm run build\"",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +43,9 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0"
+    "@craco/craco": "^7.1.0",
+    "@types/chrome": "^0.1.40",
+    "chokidar-cli": "^3.0.0",
+    "webpack-extension-reloader": "^1.1.4"
   }
 }

@@ -1,11 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "Hello Password",
+  "name": "Hello Password up",
   "version": "1.0.0",
   "description": "A simple Hello World password manager extension",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Hello Password"
+    "default_title": "Hello Password",
+    "default_icon": {
+      "16": "logo192.png",
+      "32": "logo192.png",
+      "48": "logo192.png",
+      "128": "logo512.png"
+    }
+  },
+  "background": {
+    "service_worker": "static/js/background.js"
   },
   "permissions": ["storage"],
   "icons": {
