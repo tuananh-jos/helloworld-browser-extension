@@ -1,0 +1,9 @@
+﻿{
+    "name":  "com.hellopassword.native",
+    "description":  "Hello Password Native Host",
+    "path":  "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\native-host\\HelloPasswordHost\\bin\\Release\\net10.0\\win-x64\\publish\\HelloPasswordHost.exe",
+    "type":  "stdio",
+    "allowed_origins":  [
+                            "chrome-extension://gnepbjfjlajefoffgpihlchpjkhpneif/"
+                        ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "q4S077LJZ9I=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\native-host\\HelloPasswordHost\\HelloPasswordHost.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.6\\microsoft.net.illink.tasks.10.0.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.6\\microsoft.netcore.app.runtime.win-x64.10.0.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.6\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.6\\microsoft.aspnetcore.app.runtime.win-x64.10.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

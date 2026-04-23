@@ -11,6 +11,11 @@
 # production
 /build
 
+# native-host build output
+native-host/HelloPasswordHost/bin/
+native-host/HelloPasswordHost/obj/
+native-host/manifest.installed.json
+
 # misc
 .DS_Store
 .vscode/

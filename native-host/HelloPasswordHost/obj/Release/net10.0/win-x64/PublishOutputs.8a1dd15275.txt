@@ -1,0 +1,2 @@
+c:\Users\Administrator\Documents\helloworld-browser-extension\native-host\HelloPasswordHost\bin\Release\net10.0\win-x64\publish\HelloPasswordHost.pdb
+c:\Users\Administrator\Documents\helloworld-browser-extension\native-host\HelloPasswordHost\bin\Release\net10.0\win-x64\publish\HelloPasswordHost.exe
