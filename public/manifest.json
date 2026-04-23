@@ -16,7 +16,13 @@
   "background": {
     "service_worker": "static/js/background.js"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["static/js/content.js"]
+    }
+  ],
   "icons": {
     "16": "favicon.ico",
     "48": "logo192.png",

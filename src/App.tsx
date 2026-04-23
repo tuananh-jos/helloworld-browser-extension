@@ -1,28 +1,16 @@
 import { useState } from 'react';
-import { PasswordEntry } from './types';
+import { usePasswordStorage } from './hooks/usePasswordStorage';
+import { useCurrentSite } from './hooks/useCurrentSite';
 import PasswordList from './components/PasswordList';
 import AddPassword from './components/AddPassword';
 import './App.css';
 
-const INITIAL_ENTRIES: PasswordEntry[] = [
-  { id: '1', site: 'github.com', username: 'alice', password: 'gh_secret123' },
-  { id: '2', site: 'google.com', username: 'alice@gmail.com', password: 'g00gle!pass' },
-];
-
 type View = 'list' | 'add';
 
 function App() {
-  const [entries, setEntries] = useState<PasswordEntry[]>(INITIAL_ENTRIES);
+  const { entries, loading, addEntry, deleteEntry } = usePasswordStorage();
+  const currentSite = useCurrentSite();
   const [view, setView] = useState<View>('list');
-
-  const handleAdd = (entry: Omit<PasswordEntry, 'id'>) => {
-    setEntries((prev) => [...prev, { ...entry, id: Date.now().toString() }]);
-    setView('list');
-  };
-
-  const handleDelete = (id: string) => {
-    setEntries((prev) => prev.filter((e) => e.id !== id));
-  };
 
   return (
     <div className="app">
@@ -37,10 +25,12 @@ function App() {
       </header>
 
       <main className="app-body">
-        {view === 'list' ? (
-          <PasswordList entries={entries} onDelete={handleDelete} />
+        {loading ? (
+          <p className="empty-state">Loading...</p>
+        ) : view === 'list' ? (
+          <PasswordList entries={entries} currentSite={currentSite} onDelete={deleteEntry} />
         ) : (
-          <AddPassword onAdd={handleAdd} onCancel={() => setView('list')} />
+          <AddPassword onAdd={addEntry} onCancel={() => setView('list')} />
         )}
       </main>
     </div>

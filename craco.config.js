@@ -8,6 +8,7 @@ module.exports = {
       webpackConfig.entry = {
         main: webpackConfig.entry,
         background: path.resolve(__dirname, 'src/background.ts'),
+        content: path.resolve(__dirname, 'src/content.ts'),
       };
 
       // Extensions don't use runtime chunk splitting

@@ -103,18 +103,20 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.entry-password-value {
   font-family: monospace;
+  min-width: 80px;
 }
 
 .btn-delete {
-  grid-column: 2;
-  grid-row: 1 / 4;
-  align-self: center;
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   opacity: 0.5;
+  padding: 0;
 }
 
 .btn-delete:hover {
@@ -132,6 +134,63 @@ body {
 
 .btn-text:hover {
   text-decoration: underline;
+}
+
+.current-site {
+  font-size: 11px;
+  color: #a0a0b0;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  background: #16213e;
+  border-radius: 4px;
+  border-left: 2px solid #0f3460;
+}
+
+.password-item--match {
+  border-color: #e94560;
+}
+
+.match-badge {
+  color: #e94560;
+  font-size: 11px;
+  margin-right: 4px;
+}
+
+.entry-actions {
+  grid-column: 2;
+  grid-row: 1 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.btn-fill {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid #e94560;
+  background: transparent;
+  color: #e94560;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-fill:hover {
+  background: #e94560;
+  color: white;
+}
+
+.btn-fill--ok {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.btn-fill--err {
+  border-color: #ff5252;
+  color: #ff5252;
 }
 
 .empty-state {
