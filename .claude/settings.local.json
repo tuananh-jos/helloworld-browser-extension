@@ -4,7 +4,8 @@
       "Bash(npm run *)",
       "Bash(npm install *)",
       "PowerShell(& \"C:\\\\Program Files\\\\dotnet\\\\dotnet.exe\" publish \"c:\\\\Users\\\\Administrator\\\\Documents\\\\helloworld-browser-extension\\\\native-host\\\\HelloPasswordHost\\\\HelloPasswordHost.csproj\" -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true 2>&1)",
-      "PowerShell(& \"C:\\\\Program Files\\\\dotnet\\\\dotnet.exe\" publish \"c:\\\\Users\\\\Administrator\\\\Documents\\\\helloworld-browser-extension\\\\native-host\\\\HelloPasswordHost\\\\HelloPasswordHost.csproj\" -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true; Write-Host \"Exit: $LASTEXITCODE\")"
+      "PowerShell(& \"C:\\\\Program Files\\\\dotnet\\\\dotnet.exe\" publish \"c:\\\\Users\\\\Administrator\\\\Documents\\\\helloworld-browser-extension\\\\native-host\\\\HelloPasswordHost\\\\HelloPasswordHost.csproj\" -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true; Write-Host \"Exit: $LASTEXITCODE\")",
+      "Bash(powershell -Command ' *)"
     ]
   }
 }

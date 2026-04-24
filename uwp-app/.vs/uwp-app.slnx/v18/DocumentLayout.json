@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\uwp-app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF38978-2DDD-45B2-D226-ADE083C42A88}|uwp-app\\uwp_app\\uwp_app.csproj|c:\\users\\administrator\\documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF38978-2DDD-45B2-D226-ADE083C42A88}|uwp-app\\uwp_app\\uwp_app.csproj|solutionrelative:uwp-app\\uwp_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E57C1D-C417-86EA-1567-D71F7ED6C88C}|uwp-app\\uwp_app.Package\\uwp_app.Package.wapproj|c:\\users\\administrator\\documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app.package\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{31E57C1D-C417-86EA-1567-D71F7ED6C88C}|uwp-app\\uwp_app.Package\\uwp_app.Package.wapproj|solutionrelative:uwp-app\\uwp_app.package\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF38978-2DDD-45B2-D226-ADE083C42A88}|uwp-app\\uwp_app\\uwp_app.csproj|c:\\users\\administrator\\documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BF38978-2DDD-45B2-D226-ADE083C42A88}|uwp-app\\uwp_app\\uwp_app.csproj|solutionrelative:uwp-app\\uwp_app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app\\App.xaml.cs",
+              "RelativeDocumentMoniker": "uwp-app\\uwp_app\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app\\App.xaml.cs",
+              "RelativeToolTip": "uwp-app\\uwp_app\\App.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwCUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T00:00:42.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app.Package\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "uwp-app\\uwp_app.Package\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app.Package\\Package.appxmanifest",
+              "RelativeToolTip": "uwp-app\\uwp_app.Package\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2026-04-23T23:19:45.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app\\MainPage.xaml",
+              "RelativeDocumentMoniker": "uwp-app\\uwp_app\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\helloworld-browser-extension\\uwp-app\\uwp-app\\uwp_app\\MainPage.xaml",
+              "RelativeToolTip": "uwp-app\\uwp_app\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-23T23:10:40.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

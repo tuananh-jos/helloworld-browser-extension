@@ -16,6 +16,10 @@ native-host/HelloPasswordHost/bin/
 native-host/HelloPasswordHost/obj/
 native-host/manifest.installed.json
 
+# uwp-app build output
+uwp-app/HelloPasswordUwp/bin/
+uwp-app/HelloPasswordUwp/obj/
+
 # misc
 .DS_Store
 .vscode/
@@ -28,3 +32,7 @@ native-host/manifest.installed.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+**/bin/
+
+**/obj/
